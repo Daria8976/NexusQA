@@ -14,13 +14,13 @@ As a highly competitive training-free baseline, **NexusQA** employs a "plan-act"
 
 
 ## Release Process
-- [x] **NexusBench**
-  - [x] Dataset: Question-answer pairs with evidence annotations
-  - [x] Model evaluation code
-  - [x] Metrics and judging scripts
-- [x] **NexusQA**
-  - [x] Inference pipeline
-  - [x] Prompts
+- [ ] **NexusBench**
+  - [ ] Dataset: Question-answer pairs with evidence annotations
+  - [ ] Model evaluation code
+  - [ ] Metrics and judging scripts
+- [ ] **NexusQA**
+  - [ ] Inference pipeline
+  - [ ] Prompts
 
 
 
