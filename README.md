@@ -1,6 +1,6 @@
 # NexusBench & NexusQA
 
-<!-- [![Dataset](https://img.shields.io/badge/Dataset-Nexus-CFAFD4)](https://huggingface.co/datasets/Nexus)  -->
+[![Dataset](https://img.shields.io/badge/Dataset-NexusBench-CFAFD4)](https://huggingface.co/datasets/anonymous-anonymous-anonymous/NexusBench) 
 
 ## Introduction
 
