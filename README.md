@@ -18,6 +18,7 @@ As a highly competitive training-free baseline, **NexusQA** employs a "plan-act"
   - [x] Dataset: Question-answer pairs with evidence annotations
   - [x] Model evaluation code
   - [ ] Metrics and judging scripts
+  - [ ] Construction Pipeline
 - [ ] **NexusQA**
   - [ ] Inference pipeline
   - [ ] Prompts
