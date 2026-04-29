@@ -1,0 +1,152 @@
+[
+    {
+        "image_name": "frame0013_orig9_gen110_full_iou005_vis.jpg",
+        "image_path": "path/NexusBench/add_label/test_frame_masks/0004_11566980553/frame0013_orig9_gen110_full_iou005_vis.jpg",
+        "object_category": "child",
+        "part_level_label": "other"
+    },
+    {
+        "image_name": "frame0013_orig9_gen113_full_iou018_vis.jpg",
+        "image_path": "path/NexusBench/add_label/test_frame_masks/0004_11566980553/frame0013_orig9_gen113_full_iou018_vis.jpg",
+        "object_category": "child",
+        "part_level_label": "right cuff"
+    },
+    {
+        "image_name": "frame0013_orig9_gen85_from106_full_iou010_vis.jpg",
+        "image_path": "path/NexusBench/add_label/test_frame_masks/0004_11566980553/frame0013_orig9_gen85_from106_full_iou010_vis.jpg",
+        "object_category": "child",
+        "part_level_label": "other"
+    },
+    {
+        "image_name": "frame0013_orig9_gen91_full_iou022_vis.jpg",
+        "image_path": "path/NexusBench/add_label/test_frame_masks/0004_11566980553/frame0013_orig9_gen91_full_iou022_vis.jpg",
+        "object_category": "child",
+        "part_level_label": "left cuff"
+    },
+    {
+        "image_name": "frame0024_orig10_gen260_from247_full_iou629_vis.jpg",
+        "image_path": "path/NexusBench/add_label/test_frame_masks/0004_11566980553/frame0024_orig10_gen260_from247_full_iou629_vis.jpg",
+        "object_category": "sofa",
+        "part_level_label": "other"
+    },
+    {
+        "image_name": "frame0024_orig10_gen658_from241_full_iou203_vis.jpg",
+        "image_path": "path/NexusBench/add_label/test_frame_masks/0004_11566980553/frame0024_orig10_gen658_from241_full_iou203_vis.jpg",
+        "object_category": "sofa",
+        "part_level_label": "backrest"
+    },
+    {
+        "image_name": "frame0024_orig8_gen240_full_iou394_vis.jpg",
+        "image_path": "path/NexusBench/add_label/test_frame_masks/0004_11566980553/frame0024_orig8_gen240_full_iou394_vis.jpg",
+        "object_category": "adult",
+        "part_level_label": "pant leg"
+    },
+    {
+        "image_name": "frame0024_orig8_gen275_full_iou063_vis.jpg",
+        "image_path": "path/NexusBench/add_label/test_frame_masks/0004_11566980553/frame0024_orig8_gen275_full_iou063_vis.jpg",
+        "object_category": "adult",
+        "part_level_label": "head"
+    },
+    {
+        "image_name": "frame0024_orig8_gen279_full_iou054_vis.jpg",
+        "image_path": "path/NexusBench/add_label/test_frame_masks/0004_11566980553/frame0024_orig8_gen279_full_iou054_vis.jpg",
+        "object_category": "adult",
+        "part_level_label": "left hand"
+    },
+    {
+        "image_name": "frame0024_orig8_gen687_from254_full_iou035_vis.jpg",
+        "image_path": "path/NexusBench/add_label/test_frame_masks/0004_11566980553/frame0024_orig8_gen687_from254_full_iou035_vis.jpg",
+        "object_category": "adult",
+        "part_level_label": "left hand"
+    },
+    {
+        "image_name": "frame0024_orig8_gen687_from286_full_iou103_vis.jpg",
+        "image_path": "path/NexusBench/add_label/test_frame_masks/0004_11566980553/frame0024_orig8_gen687_from286_full_iou103_vis.jpg",
+        "object_category": "adult",
+        "part_level_label": "left hand"
+    },
+    {
+        "image_name": "frame0113_orig10_gen658_from709_full_iou314_vis.jpg",
+        "image_path": "path/NexusBench/add_label/test_frame_masks/0004_11566980553/frame0113_orig10_gen658_from709_full_iou314_vis.jpg",
+        "object_category": "sofa",
+        "part_level_label": "backrest"
+    },
+    {
+        "image_name": "frame0113_orig10_gen683_full_iou599_vis.jpg",
+        "image_path": "path/NexusBench/add_label/test_frame_masks/0004_11566980553/frame0113_orig10_gen683_full_iou599_vis.jpg",
+        "object_category": "sofa",
+        "part_level_label": "seat"
+    },
+    {
+        "image_name": "frame0113_orig10_gen693_from690_full_iou320_vis.jpg",
+        "image_path": "path/NexusBench/add_label/test_frame_masks/0004_11566980553/frame0113_orig10_gen693_from690_full_iou320_vis.jpg",
+        "object_category": "sofa",
+        "part_level_label": "leg"
+    },
+    {
+        "image_name": "frame0113_orig10_gen693_full_iou272_vis.jpg",
+        "image_path": "path/NexusBench/add_label/test_frame_masks/0004_11566980553/frame0113_orig10_gen693_full_iou272_vis.jpg",
+        "object_category": "sofa",
+        "part_level_label": "seat"
+    },
+    {
+        "image_name": "frame0113_orig8_gen668_full_iou362_vis.jpg",
+        "image_path": "path/NexusBench/add_label/test_frame_masks/0004_11566980553/frame0113_orig8_gen668_full_iou362_vis.jpg",
+        "object_category": "adult",
+        "part_level_label": "other"
+    },
+    {
+        "image_name": "frame0113_orig8_gen712_from673_full_iou491_vis.jpg",
+        "image_path": "path/NexusBench/add_label/test_frame_masks/0004_11566980553/frame0113_orig8_gen712_from673_full_iou491_vis.jpg",
+        "object_category": "adult",
+        "part_level_label": "other"
+    },
+    {
+        "image_name": "frame0113_orig8_gen712_from692_full_iou202_vis.jpg",
+        "image_path": "path/NexusBench/add_label/test_frame_masks/0004_11566980553/frame0113_orig8_gen712_from692_full_iou202_vis.jpg",
+        "object_category": "adult",
+        "part_level_label": "other"
+    },
+    {
+        "image_name": "frame0113_orig8_gen712_full_iou662_vis.jpg",
+        "image_path": "path/NexusBench/add_label/test_frame_masks/0004_11566980553/frame0113_orig8_gen712_full_iou662_vis.jpg",
+        "object_category": "adult",
+        "part_level_label": "other"
+    },
+    {
+        "image_name": "frame0117_orig9_gen810_full_iou006_vis.jpg",
+        "image_path": "path/NexusBench/add_label/test_frame_masks/0004_11566980553/frame0117_orig9_gen810_full_iou006_vis.jpg",
+        "object_category": "child",
+        "part_level_label": "other"
+    },
+    {
+        "image_name": "frame0170_orig10_gen1099_full_iou011_vis.jpg",
+        "image_path": "path/NexusBench/add_label/test_frame_masks/0004_11566980553/frame0170_orig10_gen1099_full_iou011_vis.jpg",
+        "object_category": "sofa",
+        "part_level_label": "other"
+    },
+    {
+        "image_name": "frame0170_orig10_gen1110_from1107_full_iou019_vis.jpg",
+        "image_path": "path/NexusBench/add_label/test_frame_masks/0004_11566980553/frame0170_orig10_gen1110_from1107_full_iou019_vis.jpg",
+        "object_category": "sofa",
+        "part_level_label": "other"
+    },
+    {
+        "image_name": "frame0170_orig10_gen658_from1135_full_iou072_vis.jpg",
+        "image_path": "path/NexusBench/add_label/test_frame_masks/0004_11566980553/frame0170_orig10_gen658_from1135_full_iou072_vis.jpg",
+        "object_category": "sofa",
+        "part_level_label": "backrest"
+    },
+    {
+        "image_name": "frame0170_orig8_gen1112_full_iou140_vis.jpg",
+        "image_path": "path/NexusBench/add_label/test_frame_masks/0004_11566980553/frame0170_orig8_gen1112_full_iou140_vis.jpg",
+        "object_category": "adult",
+        "part_level_label": "other"
+    },
+    {
+        "image_name": "frame0170_orig8_gen1117_full_iou052_vis.jpg",
+        "image_path": "path/NexusBench/add_label/test_frame_masks/0004_11566980553/frame0170_orig8_gen1117_full_iou052_vis.jpg",
+        "object_category": "adult",
+        "part_level_label": "other"
+    }
+]
