@@ -14,11 +14,11 @@ As a highly competitive training-free baseline, **NexusQA** employs a "plan-act"
 
 
 ## Release Process
-- [ ] **NexusBench**
+- [x] **NexusBench**
   - [x] Dataset: Question-answer pairs with evidence annotations
   - [x] Model evaluation code
   - [x] Metrics and judging scripts
-  - [ ] Construction Pipeline
+  - [x] Construction Pipeline
 - [ ] **NexusQA**
   - [ ] Inference pipeline
   - [ ] Prompts
@@ -58,6 +58,27 @@ Each QA pair follows a standardized template with:
 }
 ```
 ![alt text](assets/nexusbench_statistics.png)
+
+### Evaluating Models with NexusBench
+
+We provide model evaluation scripts in [`NexusBench/evaluation_code`](NexusBench/evaluation_code) for benchmarking different VideoQA systems on NexusBench. The scripts cover both API-based models and locally hosted models, and support the evaluation settings used in this repository:
+
+- **API models**: [`api_model/api_model.py`](NexusBench/evaluation_code/api_model/api_model.py) evaluates OpenAI-compatible multimodal API endpoints by prompting the model to produce an answer, temporal evidence, and spatial evidence.
+- **Local models**: [`local_model/direct.py`](NexusBench/evaluation_code/local_model/direct.py), [`local_model/T.py`](NexusBench/evaluation_code/local_model/T.py), and [`local_model/T_S.py`](NexusBench/evaluation_code/local_model/T_S.py) evaluate locally served models through a vLLM/OpenAI-compatible interface under direct answering, temporal-grounded, and temporal+spatial-grounded settings.
+- **Model-specific scripts**: [`gelm/gelm.py`](NexusBench/evaluation_code/gelm/gelm.py) and [`videomind/eval_videomind.py`](NexusBench/evaluation_code/videomind/eval_videomind.py) provide evaluation adapters for GeLM and VideoMind-style pipelines.
+
+Before running an evaluation, update the dataset path, model name, API/base URL, video path, and output directory in the corresponding script. The expected output is a JSON file that keeps the original NexusBench fields and appends model predictions such as `model_answer`, `model_timestamps`, `model_spatial`, or model-specific grounding fields.
+
+### Metrics
+
+Evaluation utilities are provided in [`NexusBench/metrics`](NexusBench/metrics) to measure both answer correctness and grounding quality:
+
+- [`llm_judge.py`](NexusBench/metrics/llm_judge.py) uses an LLM judge to compare model predictions with the ground-truth answer and writes the judgment result back to the result JSON.
+- [`t_IoU_IoP_IoG.py`](NexusBench/metrics/t_IoU_IoP_IoG.py) computes temporal grounding scores, including IoU, IoP, and IoG, by matching predicted temporal intervals with annotated evidence intervals.
+- [`S_IoU.py`](NexusBench/metrics/S_IoU.py) evaluates spatial grounding by comparing predicted bounding boxes with annotated key-frame object boxes.
+- [`summary.py`](NexusBench/metrics/summary.py) summarizes dataset-level and category-level results, including QA accuracy, mIoU, IoU@0.3, mIoP, mIoG, and Acc@IoU.
+
+The typical workflow is to first run a model evaluation script, then apply the temporal/spatial metric scripts and LLM judge to the generated result file, and finally use `summary.py` to report the overall and category-wise performance.
 
 ## NexusQA
 
